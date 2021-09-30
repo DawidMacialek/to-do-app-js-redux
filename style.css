@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #dbd6d6;
+}
+.container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Stick No Bills", sans-serif;
+}
+header h1 {
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 10px;
+}
+header p {
+  text-transform: capitalize;
+}
+main {
+  min-width: 500px;
+}
+main section h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+#form {
+  min-height: 100px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+#form label {
+  font-size: 14px;
+}
+#form label {
+  padding: 2px;
+  margin: 5px;
+}
+#task {
+  width: 250px;
+  height: 40px;
+  font-size: 14px;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 3px;
+}
+#priority {
+  margin: 2px 5px;
+}
+#form button {
+  width: 140px;
+  padding: 3px;
+  margin: 10px;
+  text-transform: uppercase;
+}
+#list-to-do,
+#list-done {
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: #fff;
+  list-style: none;
+  font-family: "Lato", sans-serif;
+}
+#list-to-do li,
+#list-done li {
+  position: relative;
+  margin: 5px auto;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px solid #d2d2d2;
+}
+#list-done li {
+  font-size: 14px;
+}
+#list-to-do li button,
+#list-done li button {
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+  padding: 2px;
+  transform: translate(-20%, 50%);
+  text-transform: uppercase;
+}
+#list-to-do li button:first-of-type {
+  transform: translate(-50%, 50%);
+}
+#list-to-do li p {
+  width: 80%;
+  padding: 2px 0 2px 5px;
+}
+#list-done li p {
+  width: 92%;
+}
+#list-to-do li span,
+#list-done li span {
+  padding: 2px;
+  font-size: 12px;
+  text-align: center;
+}
+#clear-all {
+  padding: 4px 10px;
+  text-transform: uppercase;
+  margin-left: 50px;
+}

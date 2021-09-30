@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do-list-js-redux</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Stick+No+Bills&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>to do application</h1>
+            <p>example done by vanilla java script with liblary redux.</p>
+        </header>
+        <main>
+            <form id="form" type="submit">
+                <label for="task">
+                    <textarea type="text" id="task" placeholder="please provide your task in here..."></textarea>
+                </label>
+                <label for="priority">
+                    Is this a priority task?
+                    <input type="checkbox" name="data" id="priority">
+                </label>
+                <label for="data">
+                    When should that be done?
+                    <input type="date" name="data" id="data">
+                </label>
+                <button type="submit">Add Task</button>
+            </form>
+            <section>
+                <h4>Task to do list</h4>
+                <ul id="list-to-do"></ul>
+            </section>
+            <section>
+                <h4>Task done list</h4>
+                <ul id="list-done"></ul>
+            </section>
+            <button id="clear-all">Clear all</button>
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+        integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.1.1/redux.min.js"
+        integrity="sha512-F21iSaHGX/3NFz5SuwoH6pGhTPxtoJoWWULqQVPQPtLm7nbK5r8vRSSSYy3Aj+H39cVrVm4+3ikGoVD1AjE0sQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js
+        "></script>
+</body>
+
+</html>
