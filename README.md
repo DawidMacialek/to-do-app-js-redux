@@ -3,4 +3,5 @@ This is a simple example of TO DO Application. The App allows users to plan and 
 <hr>
 Please, see this App in action https://dawidmacialek.github.io/to-do-app-js-redux/ .
 <hr>
-![to-do-app](https://user-images.githubusercontent.com/78161395/156925351-c0260d0a-d866-403b-857d-8d80045bca98.png)
+
+![to-do-app](https://user-images.githubusercontent.com/78161395/156925710-27e233c9-1d75-4bb1-9597-51e67ebc5e72.png)
